@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_failed_creditCard_payment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34eb4ee5-cc75-4c56-aec8-fb10c5d7ecf5</testCaseGuid>
+</TestCaseEntity>
