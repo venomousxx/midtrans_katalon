@@ -125,3 +125,5 @@ Web.waitForElementVisible(findTestObject('Object Repository/btn_buy'), 60)
 
 Web.verifyElementPresent(findTestObject('label_success_payment'), 30)
 
+Web.closeBrowser()
+

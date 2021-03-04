@@ -117,7 +117,10 @@ Web.sendKeys(findTestObject('Object Repository/txt_otp'), otp)
 //click btn ok to make transaction
 Web.click(findTestObject('Object Repository/btn_ok'))
 
+//handle back to first frame
+Web.switchToFrame(findTestObject('Object Repository/iframe'), 60)
+
 //verify failed payment
 Web.verifyElementPresent(findTestObject('label_failed_payment'), 30)
 
-
+Web.closeBrowser()
